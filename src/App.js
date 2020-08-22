@@ -71,6 +71,9 @@ const useStyles = makeStyles((theme) => ({
       paddingBottom: theme.spacing(6),
     },
   },
+  test: {
+
+  }
 }));
 
 const tiers = [
@@ -200,10 +203,9 @@ export default function Pricing() {
         </Typography>
       </Container>
       {/* End hero unit */}
-      <Container maxWidth="md" component="main">
+      <Container maxWidth="md" component="main" className={classes.test}>
         <Grid container spacing={5} alignItems="flex-end">
           {tiers.map((tier) => (
-            // Enterprise card is full width at sm breakpoint
             <Grid item key={tier.title} xs={12} md={4}>
               <Card>
                 <CardHeader
