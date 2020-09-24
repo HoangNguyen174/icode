@@ -1,0 +1,48 @@
+.schedule {
+  padding: 24px;
+
+  &__enroll-header {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  &__class-header {
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 16px;
+    margin-top: 8px;
+  }
+
+  &__date {
+    list-style-type: disc;
+    font-weight: 600;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 16px;
+  }
+
+  &__admissions-phone-number {
+    color: rgb(14,74,157);
+    font-size: 20px;
+  }
+}
+
+.introduction {
+  margin-bottom: 24px;
+}
+
+.class-name {
+  text-align: center;
+  font-size: 36px;
+}
+
+.top-image {
+  margin-bottom: 16px;
+  img {
+    width: 100%;
+    height: 300px;
+    border: 1px solid gray;
+  }
+}

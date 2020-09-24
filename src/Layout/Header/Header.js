@@ -31,7 +31,7 @@ export default function Header() {
     <AppBar position="static" color="default" elevation={0} className={classes.header}>
       <Toolbar className={classes.toolbar}>
         <Typography variant="h6" color="inherit" noWrap className={classes.toolbarTitle}>
-          iCode
+          ICode Academy
         </Typography>
         <nav>
           <Link variant="button" color="textPrimary" href="/" className={classes.link}>

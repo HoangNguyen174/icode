@@ -6,10 +6,11 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Header from './Layout/Header/Header';
 import Footer from './Layout/Footer/Footer';
 import Home from './Layout/Home/Home';
-import Programs from './Layout/Pages/Program';
+import Programs from './Layout/Pages/Programs/Programs';
 import Careers from './Layout/Pages/Careers';
 import Support from './Layout/Pages/Support';
 import About from './Layout/Pages/About';
+import FullStack from  './Layout/Pages/Programs/FullStack.js';
 
 const useStyles = makeStyles((theme) => ({
   '@global': {
@@ -48,6 +49,9 @@ export default function Pricing() {
           </Route>
           <Route exact path="/support">
             <Support></Support>
+          </Route>
+          <Route exact path="/fullstack">
+            <FullStack></FullStack>
           </Route>
         </Switch>
         <Footer></Footer>
