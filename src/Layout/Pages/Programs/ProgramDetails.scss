@@ -16,7 +16,6 @@
   }
 
   &__date {
-    list-style-type: disc;
     font-weight: 600;
     padding-left: 16px;
     padding-top: 8px;
@@ -26,6 +25,17 @@
   &__admissions-phone-number {
     color: rgb(14,74,157);
     font-size: 20px;
+  }
+}
+
+.class-contents {
+  ul {
+    list-style-type: none;      
+    padding-left: '8px';
+
+    li:before {
+      content: '✓ ',
+    }
   }
 }
 

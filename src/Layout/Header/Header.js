@@ -37,16 +37,16 @@ export default function Header() {
           <Link variant="button" color="textPrimary" href="/" className={classes.link}>
             Home
           </Link>
-          <Link variant="button" color="textPrimary" href="programs" className={classes.link}>
+          <Link variant="button" color="textPrimary" href="/programs" className={classes.link}>
             Programs
           </Link>
-          <Link variant="button" color="textPrimary" href="careers" className={classes.link}>
+          <Link variant="button" color="textPrimary" href="/careers" className={classes.link}>
             Careers
           </Link>
-          <Link variant="button" color="textPrimary" href="about" className={classes.link}>
+          <Link variant="button" color="textPrimary" href="/about" className={classes.link}>
             About Us
           </Link>
-          <Link variant="button" color="textPrimary" href="support" className={classes.link}>
+          <Link variant="button" color="textPrimary" href="/support" className={classes.link}>
             Support
           </Link>
         </nav>

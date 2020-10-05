@@ -10,7 +10,6 @@ import Programs from './Layout/Pages/Programs/Programs';
 import Careers from './Layout/Pages/Careers';
 import Support from './Layout/Pages/Support';
 import About from './Layout/Pages/About';
-import FullStack from  './Layout/Pages/Programs/FullStack.js';
 
 const useStyles = makeStyles((theme) => ({
   '@global': {
@@ -35,24 +34,11 @@ export default function Pricing() {
         <CssBaseline />
         <Header></Header>
         <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
-          <Route exact path="/programs">
-            <Programs></Programs>
-          </Route>
-          <Route exact path="/careers">
-            <Careers></Careers>
-          </Route>
-          <Route exact path="/about">
-            <About></About>
-          </Route>
-          <Route exact path="/support">
-            <Support></Support>
-          </Route>
-          <Route exact path="/fullstack">
-            <FullStack></FullStack>
-          </Route>
+          <Route exact path="/" component={Home}/>
+          <Route path="/programs" component={Programs}/>
+          <Route exact path="/careers" component={Careers}/>
+          <Route exact path="/about" component={About}/>
+          <Route exact path="/support" component={Support}/>
         </Switch>
         <Footer></Footer>
       </React.Fragment>

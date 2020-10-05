@@ -7,7 +7,10 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from "@material-ui/core/styles";
-import { Link as RouterLink } from 'react-router-dom';
+import { 
+  Link as RouterLink,
+  withRouter
+} from 'react-router-dom';
 
 const styles = theme => ({
   root: {
@@ -25,8 +28,13 @@ class MediaCard extends React.Component {
       title,
       description,
       img,
-      learnMoreUrl,
+      className,
     } = this.props;
+
+    const {
+      url,
+      path,
+    } = this.props.match;
 
     return (
       <Card className={classes.root}>
@@ -48,7 +56,7 @@ class MediaCard extends React.Component {
           <Button size="small" color="primary">
             Share
           </Button>
-          <Button size="small" color="primary" component={RouterLink} to="/fullstack">
+          <Button size="small" color="primary" component={RouterLink} to={`${url}/${className}`}>
             Learn More
           </Button>
         </CardActions>
@@ -57,4 +65,4 @@ class MediaCard extends React.Component {
   }
 }
 
-export default withStyles(styles, { withTheme: true })(MediaCard);
+export default withStyles(styles, { withTheme: true })(withRouter(MediaCard));
