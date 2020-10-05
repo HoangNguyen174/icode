@@ -6,7 +6,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Header from './Layout/Header/Header';
 import Footer from './Layout/Footer/Footer';
 import Home from './Layout/Home/Home';
-import Programs from './Layout/Pages/Program';
+import Programs from './Layout/Pages/Programs/Programs';
 import Careers from './Layout/Pages/Careers';
 import Support from './Layout/Pages/Support';
 import About from './Layout/Pages/About';
@@ -34,21 +34,11 @@ export default function Pricing() {
         <CssBaseline />
         <Header></Header>
         <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
-          <Route exact path="/programs">
-            <Programs></Programs>
-          </Route>
-          <Route exact path="/careers">
-            <Careers></Careers>
-          </Route>
-          <Route exact path="/about">
-            <About></About>
-          </Route>
-          <Route exact path="/support">
-            <Support></Support>
-          </Route>
+          <Route exact path="/" component={Home}/>
+          <Route path="/programs" component={Programs}/>
+          <Route exact path="/careers" component={Careers}/>
+          <Route exact path="/about" component={About}/>
+          <Route exact path="/support" component={Support}/>
         </Switch>
         <Footer></Footer>
       </React.Fragment>
