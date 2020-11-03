@@ -1,7 +1,6 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Accordion from '@material-ui/core/Accordion';
@@ -9,7 +8,6 @@ import AccordionDetails from '@material-ui/core/AccordionDetails';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { withStyles } from "@material-ui/core/styles";
-import { red } from '@material-ui/core/colors';
 import Divider from '@material-ui/core/Divider';
 import { withRouter } from "react-router-dom";
 
@@ -199,10 +197,6 @@ const classesList = {
 
 class ProgramDetails extends React.Component {
   schedule() {
-    const {
-      classes,
-    } = this.props;
-
     return (
       <div className="schedule">
         <div className="schedule__enroll-header">
@@ -331,7 +325,7 @@ class ProgramDetails extends React.Component {
             { convertedClassName } Curriculum
           </h1>
           <div className="top-image">
-            <img src="/class.jpg" />
+            <img src="/class.jpg" alt=""/>
           </div>
           <div className="introduction">
             { this.renderIntro(className) }

@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import MediaCard from '../../../Components/MediaCard/MediaCard';
 
-import { makeStyles, withStyles } from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 import { Route, Switch, withRouter } from "react-router-dom";
 import ProgramDetails from  './ProgramDetails';
 
@@ -24,75 +24,6 @@ const styles = (theme) => ({
   },
 });
 
-const tiers = [
-  {
-    title: 'CSS/HTML5',
-    price: '30',
-    description: [
-      'HTML5',
-      'CSS3',
-      'Responsive Design'
-    ],
-    buttonText: 'Get started',
-    buttonVariant: 'outlined',
-  },
-  {
-    title: 'Basic to Advance JavaScript',
-    price: '30',
-    description: [
-      'Learn basic JavaScript',
-      'Function',
-      'OOP'
-    ],
-    buttonText: 'Get started',
-    buttonVariant: 'outlined',
-  },
-  {
-    title: 'Front-End Web Developer',
-    price: '30',
-    description: [
-      'Angular',
-      'React',
-      'Vue'
-    ],
-    buttonText: 'Get started',
-    buttonVariant: 'outlined',
-  },
-  {
-    title: 'Back-End Web Developer',
-    price: '30',
-    description: [
-      'Node.js',
-      'Express',
-      'NoSQL',
-    ],
-    buttonText: 'Get started',
-    buttonVariant: 'outlined',
-  },
-  {
-    title: 'Video Game Programming with JS',
-    price: '30',
-    description: [
-      'Phaser3',
-      'Three.js',
-      'WebGL'
-    ],
-    buttonText: 'Get started',
-    buttonVariant: 'outlined',
-  },
-  {
-    title: 'Data Structures and Algorithms',
-    price: '30',
-    description: [
-      'Algorithm Design',
-      'BigO Notation',
-      'Data structure Design'
-    ],
-    buttonText: 'Get started',
-    buttonVariant: 'outlined',
-  },
-];
-
 class Programs extends React.Component {
   render() {
     const {
@@ -101,7 +32,6 @@ class Programs extends React.Component {
     
     const {
       path,
-      url,
     } = this.props.match;
 
     return (

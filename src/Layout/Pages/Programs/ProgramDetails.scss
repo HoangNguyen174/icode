@@ -29,6 +29,7 @@
 }
 
 .class-contents {
+  background-color: rgb(242, 251, 254);
   ul {
     list-style-type: none;      
     padding-left: '8px';
@@ -50,9 +51,11 @@
 
 .top-image {
   margin-bottom: 16px;
+  
   img {
     width: 100%;
     height: 300px;
     border: 1px solid gray;
+    object-fit: cover;
   }
 }
