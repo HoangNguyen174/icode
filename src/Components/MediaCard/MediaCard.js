@@ -36,6 +36,11 @@ class MediaCard extends React.Component {
       url,
     } = this.props.match;
 
+    let trimUrl = url;
+    if (url[url.length - 1] === '/') {
+      trimUrl = url.slice(0, -1);
+    }
+
     return (
       <Card className={classes.root}>
         <CardActionArea>
@@ -56,7 +61,7 @@ class MediaCard extends React.Component {
           <Button size="small" color="primary">
             Share
           </Button>
-          <Button size="small" color="primary" component={RouterLink} to={`${url}/${className}`}>
+          <Button size="small" color="primary" component={RouterLink} to={`${trimUrl}/${className}`}>
             Learn More
           </Button>
         </CardActions>
