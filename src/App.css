@@ -8,3 +8,20 @@
   height: 80px;
   background-color: red;
 }
+
+@font-face {
+  font-family: 'comfortaa';
+  src: local('comfortaa'), url(./fonts/comfortaa/comfortaa-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'comfortaa';
+    font-weight: 900;
+    src: local('comfortaa'), url(./fonts/comfortaa/comfortaa-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'comfortaa';
+    font-weight: 900;
+    src: local('comfortaa'), url(./fonts/comfortaa/comfortaa-Black.ttf) format('truetype');
+}

@@ -18,6 +18,7 @@ const styles = theme => ({
   },
   media: {
     height: 140,
+    backgroundColor: 'rgb(242, 251, 254)'
   },
 });
 
@@ -33,7 +34,6 @@ class MediaCard extends React.Component {
 
     const {
       url,
-      path,
     } = this.props.match;
 
     return (

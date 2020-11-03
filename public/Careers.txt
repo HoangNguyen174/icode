@@ -9,19 +9,6 @@ Trang web xem phim trực tuyến như Netflix...
 Khi bạn có kiến thức hiểu biết về lập trình thì bạn có thể tạo ra các sản phẩm tương tự hoặc thay đổi cả hành vi của thế giới nhờ công nghệ.Hiểu một cách đơn giản hơn thì lập trình viên là công việc mô tả, hướng dẫn cho máy tính thực hiện những điều mà bạn cần làm bằng những câu lệnh. 
 Ngày nay, Kỹ năng về lập trình là một trong những kỹ năng được nhiều nhà tuyển dụng tìm kiếm gắt gao, sẵn sàng trả mức lương cao đến mức vô lý.Ngược lại, việc học lập trình lại có chi phí vô cùng thấp, thậm chí học phí 0đ. Vì thế nghề lập trình viên (cụ thể hơn là nghề lập trình web) được khá nhiều bạn trẻ hiện nay lựa chọn theo đuổi.
 
-### Học lập trình có khó không?
-
-Lập trình vốn là nghề nghiệp vốn là nghề kỹ thuật cao, sử dụng nhiều kiến thức, kinh nghiệm và sự nỗ lực.Nhưng cho dù nói rằng học lập trình không hề khó.Hay học lập trình vô cùng khó cũng đều ĐÚNG.Bởi vì, khó hay dễ đều phục thuộc vào bản thân của bạn.Và rất may cho bạn là, trong ngành lập trình, cũng có những mảng dễ gia nhập (dễ học hơn) và những mảng khó gia nhập (khó học hơn).Khi đi chuyên sâu thì cũng không thể phân biệt được mảng nào khó hơn. Mỗi mảng lại khác nhau nên đánh giá là rất khó.Dĩ nhiên, dễ gia nhập không có nghĩa là dễ thành chuyên gia nhé.Để trở thành chuyên gia trong mảng "Dễ gia nhập" cũng không hề đơn giản đâu.Ví dụ: 
-Mảng dễ gia nhập: Lập trình Web, Lập trình ứng dụng ...
-
-Mảng khó gia nhập: Trí tuệ nhân tạo, Khoa học dữ liệu, Học máy, Robot...Điều đầu tiên là bạn cần có kế hoạch học tập, thứ hai là tìm kiếm được tài nguyên học tập bổ ích và cuối cùng là cần có quyết tâm khi theo đuổi nghề lập trình viên.  
-Một số tố chất cần có để giúp bạn trở thành một lập trình viên
-Mặc dù học lập trình là điều không khó nhưng không phải ai cũng có thể trở thành một lập trình viên được.Ngoài sự đam mê thì bạn có thể phát triển các tố chất để phù hợp với ngành nghề này: 
-
-Kiên trì: đây là một yếu tố cần thiết khi làm lập trình, bởi để giải quyết các vấn đề của máy tính thì bạn có thể phải tìm hiểu, suy ngẫm. Có những lỗi đơn giản thì chỉ vài phút là bạn có thể giải quyết xong, nhưng có những lỗi bạn phải mất hàng giờ thậm chí vài ngày để giải quyết nó. 
-Tự học, làm việc 1 mình: Cho dù là bạn đã học đại học hay là không thì yếu tố tự học và làm việc 1 mình đều cần thiết đối với lập trình viên. Khi lập trình có nghĩa là bạn sẽ là người sử dụng ngôn ngữ lập trình (viết code) để viết mã từ ngôn ngữ này sang ngôn ngữ khác, chẳng hạn như từ tiếng anh sang một ngôn ngữ lập trình nào đó. Chính vì vậy mà để tạo nên một chương trình bạn cần tập trung cao để viết code, tạo các dòng lệnh,... 
-Có khả năng tư duy logic, tính cẩn thận, tỉ mỉ: Việc học lập trình bắt buộc bạn phải nhớ được các mã lệnh, cấu trúc code dài dằng dặc. Chính vì vậy khả năng tư duy logic sẽ giúp bạn hiểu và nắm bắt dòng lệnh, học viết code được nhanh hơn, cũng như nắm bắt nhanh và giải quyết được các lỗi về mã code. Thêm vào đó việc viết mã cần phải cẩn thận và tỉ mỉ vì chỉ cần sai một ký tự nhỏ như dấu phẩy, dấu cách, … cũng sẽ khiến chương trình bị lỗi không chạy được.
-
 ### Học lập trình có lợi thế gì?
 
 ** 1. Khan hiếm lập trình viên - Cơ hội còn nhiều **
@@ -57,34 +44,6 @@ Mức lương TB cao nhất của ngành CNTT là 2.241 USD (khoảng 53 triệu
 1. 928 USD (Khoảng 45 triệu đồng) với nhóm lập trình viên Full Stack.
 3. Nghề lập trình rất phù hợp với người Việt Nam
 
-### Vì sao lại vậy?
-
-Các chuyên gia nhận định:
-
-"Người Việt Nam nhanh nhạy và tháo vát, rất thông minh và xử lý tình huống nhanh. Về mặt nào cũng đó có nhiều tính xấu do truyền thống nông nghiệp trồng lúa nước như tùy tiện, ăn xổi, ăn bớt công đoạn…
-
-Nhưng nhìn từ góc độ khác thì sự “tùy tiện” đó chính là nền tảng của một tư duy nhanh nhạy, linh hoạt, dễ thích ứng và giỏi nhanh nhạy đáp ứng với các giải pháp tình thế, rất phù hợp với lĩnh vực CNTT.
-
-- (GS.TSKH Vũ Minh Giang - Chủ tịch Hội đồng Khoa học và Đào tạo ĐHQGHN, Giám đốc Chương trình Thạc sĩ Khu vực học)"
-
-Và chúng ta cũng dễ dàng nhận thấy việc các lao động “Công nhân cổ cồn” của Việt Nam chúng ta đang làm việc khắp nơi trên thế giới như: Nhật, Mỹ, Anh, Hàn… và ngành CNTT Việt Nam đang phát triển rất mạnh.
-
-** 4. Nghề lập trình không lạc hậu **
-
-Công nghệ thì phát triển từng giờ, từng ngày và thay đổi toàn bộ thế giới vận hành, thay đổi cả tính cách thói quen của con người.
-
-Có công nghệ mà đời sống con người được nâng cao rõ rệt qua từng ngày.
-
-Nhiều phát minh, nhiều công trình hay nhiều sản phẩm trí tuệ cao được sản sinh ra từ những lập trình viên.
-
-** 5. Học lập trình có thể trở thành công dân toàn cầu **
-
-Như nói ở mục trên, các bạn có thể làm việc tại nước ngoài khi doanh nhiệp điều động đi và khi đó, lương của bạn tính bằng USD.
-
-Bạn có thể đi khắp nơi trên thế giới để làm rất rất nhiều các dự án khác nhau.
-
-Tóm lại, học lập trình có lợi thế:
-
 Cơ hội còn nhiều
 Lương RẤT CAO
 Phù hợp với người Việt Nam
@@ -110,10 +69,3 @@ Và theo Báo cáo khảo sát của Stack Overflow (Cộng đồng lập trình
 
 Theo một khảo sát của IT Việc về “30 tuổi có phải quá già để làm một developer?” thì có tới 76,5% số người tham gia không đồng ý quan điểm đó.
 
-### Học lập trình bắt đầu từ đâu?
-
-Sau khi đã xác định được việc mình học lập trình để làm gì rồi thì bạn hãy tìm hiểu ngôn ngữ, nền tảng cần trang bị.
-
-Có rất nhiều tài liệu, báo cáo thị trường bạn có thể tham khảo về các ngôn ngữ thịnh hành.
-
-Hiện nay theo TopDev thì các ngôn ngữ đang thịnh hành như: PHP, Java, .NET, Python… là những ngôn ngữ mà bạn có thể xác định theo đuổi.

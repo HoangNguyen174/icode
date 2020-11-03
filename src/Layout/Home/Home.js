@@ -19,6 +19,7 @@ function createData(name, icode, others) {
 const useStyles = makeStyles((theme) => ({
   content: {
     padding: theme.spacing(8, 0, 6),
+    color: 'black'
   },
   table: {
     width: '750px',
@@ -39,11 +40,11 @@ const LeftTableCell = withStyles((theme) => ({
   body: {
     fontSize: 16,
     backgroundColor: 'rgb(242, 251, 254)',
-    border: '1px solid white'
+    border: '1px solid black'
   },
   head: {
     backgroundColor: 'rgb(242, 251, 254)',
-    border: '1px solid white'
+    border: '1px solid black'
   },
 }))(TableCell);
 
@@ -52,13 +53,13 @@ const MidTableCell = withStyles((theme) => ({
     backgroundColor: 'rgb(13, 103, 137)',
     color: 'white',
     fontWeight: 'bold',
-    borderRight: '1px solid white'
+    border: '1px solid black'
   },
   head: {
     backgroundColor: 'rgb(13, 103, 137)',
     color: 'white',
     fontWeight: 'bold',
-    borderRight: '1px solid white'
+    border: '1px solid black'
   },
 }))(TableCell);
 
@@ -67,12 +68,14 @@ const RightTableCell = withStyles((theme) => ({
     backgroundColor: 'gray',
     color: 'white',
     fontWeight: 'bold',
-    fontSize: 16
+    fontSize: 16,
+    border: '1px solid black'
   },
   head: {
     backgroundColor: 'gray',
     color: 'white',
     fontWeight: 'bold',
+    border: '1px solid black'
   },
 }))(TableCell);
 
@@ -82,8 +85,8 @@ export default function Home() {
   return (
     <React.Fragment>
       <Container maxWidth="md" component="main" className={classes.content}>
-        <Typography variant="h5" align="center" color="textSecondary" component="p">
-          Our Part-Time Online Bootcamp is a flexible alternative that provides online access to our in-depth curriculum—complete with real-time support from instructors, our industry-tested learning platform, hands-on assignments and much more.
+        <Typography variant="h5" align="center" component="p">
+          Our Part-Time Online Bootcamp is a flexible alternative that provides online access to our in-depth curriculum-complete with real-time support from instructors, our industry-tested learning platform, hands-on assignments and much more.
         </Typography>
       </Container>
       <TableContainer className={classes.table} component={Paper}>
