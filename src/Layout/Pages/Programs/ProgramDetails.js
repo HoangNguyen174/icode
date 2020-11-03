@@ -300,8 +300,9 @@ class ProgramDetails extends React.Component {
   }
 
   renderIntro(className) {
+    let id = 0;
     return classesList[className].intro.map((p) => (
-      <Typography variant="body1" align="left" color="textPrimary" gutterBottom>
+      <Typography key={id++} variant="body1" align="left" color="textPrimary" gutterBottom>
         { p }
       </Typography>
     ));
