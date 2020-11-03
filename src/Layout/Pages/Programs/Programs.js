@@ -48,21 +48,21 @@ class Programs extends React.Component {
                 <Grid item xs={4}>
                   <MediaCard title="JavaScript" 
                             description="Build a strong web development fundamental by mastering basic JavaScript"
-                            img="pic1.jpg"
+                            img="/pic1.jpg"
                             className="javascript">
                   </MediaCard>
                 </Grid>
                 <Grid item xs={4}>
                   <MediaCard title="Full-Stack Developer" 
                             description="Get the skills to work with both back-end and front-end technologies as a full-stack developer"
-                            img="pic2.jpg"
+                            img="/pic2.jpg"
                             className="fullstack">
                   </MediaCard>
                 </Grid>
                 <Grid item xs={4}>
                   <MediaCard title="HTML5/CSS3" 
                             description="Learn how to design and build responsive website with basic HTML5/CSS3"
-                            img="pic3.jpg"
+                            img="/pic3.jpg"
                             className="htmlcss">
                   </MediaCard>
                 </Grid>
