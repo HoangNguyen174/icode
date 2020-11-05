@@ -1,6 +1,6 @@
 import React from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
 
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
@@ -31,7 +31,7 @@ export default function Pricing() {
   return (
     <BrowserRouter>
       <React.Fragment>
-        <ThemeProvider theme={theme}>
+        <MuiThemeProvider theme={theme}>
           <CssBaseline />
           <Header></Header>
           <Switch>
@@ -42,7 +42,7 @@ export default function Pricing() {
             <Route exact path="/support" component={Support}/>
           </Switch>
           <Footer></Footer>
-        </ThemeProvider>
+        </MuiThemeProvider>
       </React.Fragment>
     </BrowserRouter>
   );

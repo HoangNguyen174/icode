@@ -18,8 +18,13 @@ const styles = theme => ({
   },
   media: {
     height: 140,
-    backgroundColor: 'rgb(242, 251, 254)'
   },
+  content: {
+    backgroundColor: 'rgb(242, 251, 254)',
+  },
+  action: {
+    backgroundColor: 'rgb(242, 251, 254)',
+  }
 });
 
 class MediaCard extends React.Component {
@@ -48,7 +53,8 @@ class MediaCard extends React.Component {
             className={classes.media}
             image={img}
           />
-          <CardContent>
+          <CardContent
+            className={classes.content}>
             <Typography gutterBottom variant="h5" component="h2">
               { title }
             </Typography>
@@ -57,7 +63,7 @@ class MediaCard extends React.Component {
             </Typography>
           </CardContent>
         </CardActionArea>
-        <CardActions>
+        <CardActions className={classes.action}>
           <Button size="small" color="primary">
             Share
           </Button>
