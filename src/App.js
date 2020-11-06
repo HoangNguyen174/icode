@@ -1,6 +1,6 @@
 import React from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
 
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
@@ -16,12 +16,28 @@ import { comfortaa, comfortaaBold, comfortaaLight} from './Font';
 
 const theme = createMuiTheme({
   typography: {
-    fontFamily: 'comfortaa',
+    fontFamily: [
+      'comfortaa',
+      '-apple-system',
+      'BlinkMacSystemFont',
+      '"Segoe UI"',
+      'Roboto',
+      '"Helvetica Neue"',
+      'Arial',
+      'sans-serif',
+      '"Apple Color Emoji"',
+      '"Segoe UI Emoji"',
+      '"Segoe UI Symbol"',
+    ].join(',')
   },
   overrides: {
     MuiCssBaseline: {
       '@global': {
-        '@font-face': [comfortaa, comfortaaBold, comfortaaLight],
+        '@font-face': [
+          comfortaa, 
+          comfortaaBold, 
+          comfortaaLight,
+        ],
       },
     },
   },
@@ -31,7 +47,7 @@ export default function Pricing() {
   return (
     <BrowserRouter>
       <React.Fragment>
-        <ThemeProvider theme={theme}>
+        <MuiThemeProvider theme={theme}>
           <CssBaseline />
           <Header></Header>
           <Switch>
@@ -42,7 +58,7 @@ export default function Pricing() {
             <Route exact path="/support" component={Support}/>
           </Switch>
           <Footer></Footer>
-        </ThemeProvider>
+        </MuiThemeProvider>
       </React.Fragment>
     </BrowserRouter>
   );
