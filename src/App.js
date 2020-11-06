@@ -16,12 +16,28 @@ import { comfortaa, comfortaaBold, comfortaaLight} from './Font';
 
 const theme = createMuiTheme({
   typography: {
-    fontFamily: 'comfortaa',
+    fontFamily: [
+      'comfortaa',
+      '-apple-system',
+      'BlinkMacSystemFont',
+      '"Segoe UI"',
+      'Roboto',
+      '"Helvetica Neue"',
+      'Arial',
+      'sans-serif',
+      '"Apple Color Emoji"',
+      '"Segoe UI Emoji"',
+      '"Segoe UI Symbol"',
+    ].join(',')
   },
   overrides: {
     MuiCssBaseline: {
       '@global': {
-        '@font-face': [comfortaa, comfortaaBold, comfortaaLight],
+        '@font-face': [
+          comfortaa, 
+          comfortaaBold, 
+          comfortaaLight,
+        ],
       },
     },
   },
