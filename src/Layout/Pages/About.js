@@ -93,7 +93,7 @@ export default function About() {
                 </Typography>
                 </div>
                 <div className={classes.avatar}>
-                  <img className={classes.img} src="./hoang1.jpg"></img>
+                  <img className={classes.img} src="/hoang1.jpg"></img>
                 </div>
               </Paper>
             </Grid>
@@ -113,7 +113,7 @@ export default function About() {
                   </Typography>
                 </div>
                 <div className={classes.avatar}>
-                  <img className={classes.img} src="./huy.jpg"></img>
+                  <img className={classes.img} src="/huy.jpg"></img>
                 </div>
               </Paper>
             </Grid>
@@ -133,7 +133,7 @@ export default function About() {
                 </Typography>
                 </div>
                 <div className={classes.avatar}>
-                  <img className={classes.img} src="./hoang1.jpg"></img>
+                  <img className={classes.img} src="/hoang1.jpg"></img>
                 </div>
               </Paper>
             </Grid>
@@ -153,7 +153,7 @@ export default function About() {
                 </Typography>
                 </div>
                 <div className={classes.avatar}>
-                  <img className={classes.img} src="./hoang1.jpg"></img>
+                  <img className={classes.img} src="/hoang1.jpg"></img>
                 </div>
               </Paper>
             </Grid>
